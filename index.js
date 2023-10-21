@@ -15,7 +15,7 @@ const corsOptions = {
     "http://192.168.0.108:3000",
   ],
   methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
-  credentials: true, //
+  credentials: true,
 };
 
 app.use(cors(corsOptions));
